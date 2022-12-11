@@ -3,6 +3,15 @@
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1em;
+    .cla{
+        width: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 1em;
+    }
 }
